@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234641E46C4A43B0118F8CFC /* libPods-ClassmateUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE36B90954C525F58E7C3C1 /* libPods-ClassmateUITests.a */; };
+		286B3D95B29E8FB775849A2C /* Pods_Classmate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DFA785FA62FAEE3C9CE6DF /* Pods_Classmate.framework */; };
 		702D41CA1F133D8000A2B89F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41C91F133D8000A2B89F /* AppDelegate.swift */; };
-		702D41CC1F133D8000A2B89F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41CB1F133D8000A2B89F /* ViewController.swift */; };
+		702D41CC1F133D8000A2B89F /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41CB1F133D8000A2B89F /* ChatLogController.swift */; };
 		702D41CF1F133D8000A2B89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702D41CD1F133D8000A2B89F /* Main.storyboard */; };
 		702D41D11F133D8000A2B89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702D41D01F133D8000A2B89F /* Assets.xcassets */; };
 		702D41D41F133D8000A2B89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702D41D21F133D8000A2B89F /* LaunchScreen.storyboard */; };
 		702D41DF1F133D8000A2B89F /* ClassmateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41DE1F133D8000A2B89F /* ClassmateTests.swift */; };
 		702D41EA1F133D8000A2B89F /* ClassmateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41E91F133D8000A2B89F /* ClassmateUITests.swift */; };
+		702D41F91F135C4800A2B89F /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41F81F135C4800A2B89F /* TextModel.swift */; };
+		702D41FB1F135F2C00A2B89F /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41FA1F135F2C00A2B89F /* DataSource.swift */; };
+		702D41FD1F13607A00A2B89F /* ChatItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41FC1F13607A00A2B89F /* ChatItemsController.swift */; };
+		702D41FF1F13649500A2B89F /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D41FE1F13649500A2B89F /* Decorator.swift */; };
+		702D42011F1461A800A2B89F /* TextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D42001F1461A800A2B89F /* TextBuilder.swift */; };
+		702D42031F14672F00A2B89F /* TextHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D42021F14672F00A2B89F /* TextHandler.swift */; };
+		70A9B9981F2B0FD400DFEBCC /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9B9971F2B0FD400DFEBCC /* PhotoModel.swift */; };
+		70A9B99A1F2B186C00DFEBCC /* PhotoBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9B9991F2B186C00DFEBCC /* PhotoBuilder.swift */; };
+		70A9B99C1F2B1C4100DFEBCC /* PhotoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9B99B1F2B1C4100DFEBCC /* PhotoHandler.swift */; };
+		70A9B99E1F2C119900DFEBCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70A9B99D1F2C119900DFEBCC /* GoogleService-Info.plist */; };
+		BBDE16B2C3044258DAC8D6D3 /* libPods-ClassmateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581F6560C5DEA7F2C0D9FDB /* libPods-ClassmateTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AFE056ED7D727B22D9FAC59 /* Pods-Classmate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Classmate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Classmate/Pods-Classmate.release.xcconfig"; sourceTree = "<group>"; };
+		15DFA785FA62FAEE3C9CE6DF /* Pods_Classmate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Classmate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E317F2B5828A604021DAFA /* Pods-ClassmateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassmateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassmateUITests/Pods-ClassmateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2581F6560C5DEA7F2C0D9FDB /* libPods-ClassmateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClassmateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		702D41C61F133D8000A2B89F /* Classmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702D41C91F133D8000A2B89F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		702D41CB1F133D8000A2B89F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		702D41CB1F133D8000A2B89F /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 		702D41CE1F133D8000A2B89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		702D41D01F133D8000A2B89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702D41D31F133D8000A2B89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,21 @@
 		702D41E51F133D8000A2B89F /* ClassmateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702D41E91F133D8000A2B89F /* ClassmateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateUITests.swift; sourceTree = "<group>"; };
 		702D41EB1F133D8000A2B89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702D41F81F135C4800A2B89F /* TextModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
+		702D41FA1F135F2C00A2B89F /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		702D41FC1F13607A00A2B89F /* ChatItemsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatItemsController.swift; sourceTree = "<group>"; };
+		702D41FE1F13649500A2B89F /* Decorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		702D42001F1461A800A2B89F /* TextBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBuilder.swift; sourceTree = "<group>"; };
+		702D42021F14672F00A2B89F /* TextHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextHandler.swift; sourceTree = "<group>"; };
+		70A9B9971F2B0FD400DFEBCC /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		70A9B9991F2B186C00DFEBCC /* PhotoBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBuilder.swift; sourceTree = "<group>"; };
+		70A9B99B1F2B1C4100DFEBCC /* PhotoHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoHandler.swift; sourceTree = "<group>"; };
+		70A9B99D1F2C119900DFEBCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DE36B90954C525F58E7C3C1 /* libPods-ClassmateUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClassmateUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0001CF90E973C59454A837E /* Pods-ClassmateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassmateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClassmateUITests/Pods-ClassmateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE8D41D209B31678CBAB5A70 /* Pods-ClassmateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassmateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassmateTests/Pods-ClassmateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF93837EDB5752662A39DDDC /* Pods-Classmate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Classmate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Classmate/Pods-Classmate.debug.xcconfig"; sourceTree = "<group>"; };
+		EFBFC13E3B7123DD8E63916A /* Pods-ClassmateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassmateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClassmateTests/Pods-ClassmateTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286B3D95B29E8FB775849A2C /* Pods_Classmate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDE16B2C3044258DAC8D6D3 /* libPods-ClassmateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234641E46C4A43B0118F8CFC /* libPods-ClassmateUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,8 @@
 				702D41DD1F133D8000A2B89F /* ClassmateTests */,
 				702D41E81F133D8000A2B89F /* ClassmateUITests */,
 				702D41C71F133D8000A2B89F /* Products */,
+				F25B9B2C056918F7E11AC4A2 /* Pods */,
+				D3BD66B3BCD741012CE306D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +135,17 @@
 			isa = PBXGroup;
 			children = (
 				702D41C91F133D8000A2B89F /* AppDelegate.swift */,
-				702D41CB1F133D8000A2B89F /* ViewController.swift */,
+				702D41CB1F133D8000A2B89F /* ChatLogController.swift */,
+				702D41FE1F13649500A2B89F /* Decorator.swift */,
+				702D41FA1F135F2C00A2B89F /* DataSource.swift */,
+				702D41FC1F13607A00A2B89F /* ChatItemsController.swift */,
+				702D41F71F135C0500A2B89F /* TextMessage */,
+				70A9B9961F2B0F4000DFEBCC /* Photo MEssage */,
 				702D41CD1F133D8000A2B89F /* Main.storyboard */,
 				702D41D01F133D8000A2B89F /* Assets.xcassets */,
 				702D41D21F133D8000A2B89F /* LaunchScreen.storyboard */,
 				702D41D51F133D8000A2B89F /* Info.plist */,
+				70A9B99D1F2C119900DFEBCC /* GoogleService-Info.plist */,
 			);
 			path = Classmate;
 			sourceTree = "<group>";
@@ -125,6 +168,49 @@
 			path = ClassmateUITests;
 			sourceTree = "<group>";
 		};
+		702D41F71F135C0500A2B89F /* TextMessage */ = {
+			isa = PBXGroup;
+			children = (
+				702D41F81F135C4800A2B89F /* TextModel.swift */,
+				702D42001F1461A800A2B89F /* TextBuilder.swift */,
+				702D42021F14672F00A2B89F /* TextHandler.swift */,
+			);
+			name = TextMessage;
+			sourceTree = "<group>";
+		};
+		70A9B9961F2B0F4000DFEBCC /* Photo MEssage */ = {
+			isa = PBXGroup;
+			children = (
+				70A9B9971F2B0FD400DFEBCC /* PhotoModel.swift */,
+				70A9B9991F2B186C00DFEBCC /* PhotoBuilder.swift */,
+				70A9B99B1F2B1C4100DFEBCC /* PhotoHandler.swift */,
+			);
+			name = "Photo MEssage";
+			sourceTree = "<group>";
+		};
+		D3BD66B3BCD741012CE306D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15DFA785FA62FAEE3C9CE6DF /* Pods_Classmate.framework */,
+				2581F6560C5DEA7F2C0D9FDB /* libPods-ClassmateTests.a */,
+				8DE36B90954C525F58E7C3C1 /* libPods-ClassmateUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25B9B2C056918F7E11AC4A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF93837EDB5752662A39DDDC /* Pods-Classmate.debug.xcconfig */,
+				0AFE056ED7D727B22D9FAC59 /* Pods-Classmate.release.xcconfig */,
+				BE8D41D209B31678CBAB5A70 /* Pods-ClassmateTests.debug.xcconfig */,
+				EFBFC13E3B7123DD8E63916A /* Pods-ClassmateTests.release.xcconfig */,
+				19E317F2B5828A604021DAFA /* Pods-ClassmateUITests.debug.xcconfig */,
+				B0001CF90E973C59454A837E /* Pods-ClassmateUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 702D41EE1F133D8000A2B89F /* Build configuration list for PBXNativeTarget "Classmate" */;
 			buildPhases = (
+				64F6A4B19C379F254295D79C /* [CP] Check Pods Manifest.lock */,
 				702D41C21F133D8000A2B89F /* Sources */,
 				702D41C31F133D8000A2B89F /* Frameworks */,
 				702D41C41F133D8000A2B89F /* Resources */,
+				A362F548ADE57C7409BD91C0 /* [CP] Embed Pods Frameworks */,
+				AD7479C4C0906F7C14C00017 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 702D41F11F133D8000A2B89F /* Build configuration list for PBXNativeTarget "ClassmateTests" */;
 			buildPhases = (
+				5AED2BC59D8549BDDE8B0FEF /* [CP] Check Pods Manifest.lock */,
 				702D41D61F133D8000A2B89F /* Sources */,
 				702D41D71F133D8000A2B89F /* Frameworks */,
 				702D41D81F133D8000A2B89F /* Resources */,
+				B05292B08B8BCABE77262345 /* [CP] Embed Pods Frameworks */,
+				0F0A6E5F752451AB539FA0F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 702D41F41F133D8000A2B89F /* Build configuration list for PBXNativeTarget "ClassmateUITests" */;
 			buildPhases = (
+				4E5D3AE4E6C65B06E0DC8C8A /* [CP] Check Pods Manifest.lock */,
 				702D41E11F133D8000A2B89F /* Sources */,
 				702D41E21F133D8000A2B89F /* Frameworks */,
 				702D41E31F133D8000A2B89F /* Resources */,
+				DACD4F7729A56697311FA218 /* [CP] Embed Pods Frameworks */,
+				9805BCA1951B407F49BE00B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +288,7 @@
 				TargetAttributes = {
 					702D41C51F133D8000A2B89F = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = V68CVK372G;
+						DevelopmentTeam = 2596SYY23Y;
 						ProvisioningStyle = Automatic;
 					};
 					702D41D91F133D8000A2B89F = {
@@ -236,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				702D41D41F133D8000A2B89F /* LaunchScreen.storyboard in Resources */,
+				70A9B99E1F2C119900DFEBCC /* GoogleService-Info.plist in Resources */,
 				702D41D11F133D8000A2B89F /* Assets.xcassets in Resources */,
 				702D41CF1F133D8000A2B89F /* Main.storyboard in Resources */,
 			);
@@ -257,13 +353,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F0A6E5F752451AB539FA0F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassmateTests/Pods-ClassmateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5D3AE4E6C65B06E0DC8C8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AED2BC59D8549BDDE8B0FEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64F6A4B19C379F254295D79C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9805BCA1951B407F49BE00B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassmateUITests/Pods-ClassmateUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A362F548ADE57C7409BD91C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Classmate/Pods-Classmate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7479C4C0906F7C14C00017 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Classmate/Pods-Classmate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B05292B08B8BCABE77262345 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassmateTests/Pods-ClassmateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACD4F7729A56697311FA218 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassmateUITests/Pods-ClassmateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		702D41C21F133D8000A2B89F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				702D41CC1F133D8000A2B89F /* ViewController.swift in Sources */,
+				70A9B99A1F2B186C00DFEBCC /* PhotoBuilder.swift in Sources */,
+				70A9B9981F2B0FD400DFEBCC /* PhotoModel.swift in Sources */,
+				702D42011F1461A800A2B89F /* TextBuilder.swift in Sources */,
+				702D41FD1F13607A00A2B89F /* ChatItemsController.swift in Sources */,
+				702D41F91F135C4800A2B89F /* TextModel.swift in Sources */,
+				702D41CC1F133D8000A2B89F /* ChatLogController.swift in Sources */,
+				702D41FB1F135F2C00A2B89F /* DataSource.swift in Sources */,
+				70A9B99C1F2B1C4100DFEBCC /* PhotoHandler.swift in Sources */,
 				702D41CA1F133D8000A2B89F /* AppDelegate.swift in Sources */,
+				702D41FF1F13649500A2B89F /* Decorator.swift in Sources */,
+				702D42031F14672F00A2B89F /* TextHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,12 +658,14 @@
 		};
 		702D41EF1F133D8000A2B89F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF93837EDB5752662A39DDDC /* Pods-Classmate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V68CVK372G;
+				DEVELOPMENT_TEAM = 2596SYY23Y;
 				INFOPLIST_FILE = Classmate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = selfieApp.Classmate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.classmatelab.classmate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,12 +673,14 @@
 		};
 		702D41F01F133D8000A2B89F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AFE056ED7D727B22D9FAC59 /* Pods-Classmate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V68CVK372G;
+				DEVELOPMENT_TEAM = 2596SYY23Y;
 				INFOPLIST_FILE = Classmate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = selfieApp.Classmate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.classmatelab.classmate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -441,6 +688,7 @@
 		};
 		702D41F21F133D8000A2B89F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8D41D209B31678CBAB5A70 /* Pods-ClassmateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +704,7 @@
 		};
 		702D41F31F133D8000A2B89F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBFC13E3B7123DD8E63916A /* Pods-ClassmateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +720,7 @@
 		};
 		702D41F51F133D8000A2B89F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E317F2B5828A604021DAFA /* Pods-ClassmateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = V68CVK372G;
@@ -485,6 +735,7 @@
 		};
 		702D41F61F133D8000A2B89F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0001CF90E973C59454A837E /* Pods-ClassmateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = V68CVK372G;
@@ -516,6 +767,7 @@
 				702D41F01F133D8000A2B89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		702D41F11F133D8000A2B89F /* Build configuration list for PBXNativeTarget "ClassmateTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +776,7 @@
 				702D41F31F133D8000A2B89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		702D41F41F133D8000A2B89F /* Build configuration list for PBXNativeTarget "ClassmateUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +785,7 @@
 				702D41F61F133D8000A2B89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
