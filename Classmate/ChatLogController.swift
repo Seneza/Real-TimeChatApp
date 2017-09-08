@@ -64,12 +64,6 @@ class ChatLogController: BaseChatViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       /* for i in 1...295 {
-            let message = MessageModel(uid: "\(i)", senderId: "", type: TextModel.chatItemType, isIncoming: false, date: Date(), status: .success)
-            self.totalMessages.append(TextModel(messageModel: message, text: "\(i)"))
-        }
-        */
         self.dataSource = DataSource(totalMessages: self.totalMessages)
         self.chatDataSource = self.dataSource
         self.chatItemsDecorator = self.decorator
